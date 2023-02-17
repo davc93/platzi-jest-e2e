@@ -14,12 +14,13 @@ jobs:
     services:
       postgres-e2e:
         image: postgres:13
-        env:
-          - POSTGRES_DB: db_e2e
-          - POSTGRES_USER: e2e
-          - POSTGRES_PASSWORD: e2e123
         ports:
           - 5432:5432
+        env:
+          POSTGRES_DB: db_e2e
+          POSTGRES_USER: e2e
+          POSTGRES_PASSWORD: e2e123
+
 
     steps:
       - name: Checkout
