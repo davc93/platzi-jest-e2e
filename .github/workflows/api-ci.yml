@@ -2,9 +2,9 @@ name: API-CI
 
 on:
   push:
-    branches:['*']
+    branches: ['*']
   pull_request:
-    branches:[main,master]
+    branches: [main,master]
 
 jobs:
   e2e:
@@ -35,4 +35,3 @@ jobs:
           JWT_SECRET: secret
           SMTP_EMAIL: user@mail.com
           SMTP_PASSWORD: asds123
-
