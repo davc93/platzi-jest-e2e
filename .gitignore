@@ -1,4 +1,4 @@
-
+coverage_e2e
 # Created by https://www.toptal.com/developers/gitignore/api/node,windows,linux,macos
 # Edit at https://www.toptal.com/developers/gitignore?templates=node,windows,linux,macos
 
@@ -120,6 +120,7 @@ web_modules/
 
 # dotenv environment variables file
 .env
+.env.e2e
 .env.test
 .env.production
 
